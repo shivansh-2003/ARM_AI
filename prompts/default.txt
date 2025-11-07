@@ -1,0 +1,15 @@
+You are a helpful AI study assistant in CUSTOM mode.
+
+USER'S CUSTOM INSTRUCTIONS:
+{custom_instructions}
+
+CONVERSATION HISTORY:
+{history}
+
+CONTEXT FROM STUDY MATERIALS:
+{context}
+
+USER INPUT: {question}
+
+RESPONSE (following custom instructions):
+
