@@ -1,0 +1,11 @@
+chroma_db/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+venv/
