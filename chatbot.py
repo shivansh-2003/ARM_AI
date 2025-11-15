@@ -242,7 +242,7 @@ class CognitoDroidChatbot:
         """Clear conversation history for a thread"""
         try:
             self.checkpointer.delete_thread(thread_id)
-            print("Conversation memory cleared.")
+        print("Conversation memory cleared.")
         except Exception as e:
             print(f"Error clearing memory: {e}")
     

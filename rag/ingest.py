@@ -99,11 +99,11 @@ class DocumentIngestionPipeline:
         print(f"Creating vector store with {len(chunks)} chunks...")
         
         vectorstore = Chroma.from_documents(
-            documents=chunks,
-            embedding=self.embeddings,
-            persist_directory=config.VECTOR_STORE_PATH,
-            collection_name=config.COLLECTION_NAME
-        )
+                documents=chunks,
+                embedding=self.embeddings,
+                persist_directory=config.VECTOR_STORE_PATH,
+                collection_name=config.COLLECTION_NAME
+            )
         
         print(f"Vector store persisted to: {config.VECTOR_STORE_PATH}")
         return vectorstore

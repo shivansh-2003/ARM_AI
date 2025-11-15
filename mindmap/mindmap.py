@@ -9,7 +9,7 @@ from typing import List, Dict, Any, TypedDict, Optional
 from pydantic import BaseModel, Field
 
 # LangChain imports
-from langchain_community.graphs import Neo4jGraph
+from langchain_neo4j import Neo4jGraph
 
 # Ollama Python client
 import ollama

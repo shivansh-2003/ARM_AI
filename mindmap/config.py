@@ -18,12 +18,12 @@ OLLAMA_TEMPERATURE = 0.1  # Deterministic outputs for structured generation
 # Neo4j Configuration
 # ============================================================================
 
-NEO4J_URI = "neo4j://127.0.0.1:7687"
-NEO4J_USERNAME = "study"
-NEO4J_PASSWORD =  "shivansh"
+NEO4J_URI = "bolt://127.0.0.1:7687"
+NEO4J_USERNAME = "neo4j"
+NEO4J_PASSWORD = "shivansh"
 
 # Neo4j Database Configuration
-NEO4J_DATABASE = "study"
+NEO4J_DATABASE = "neo4j"
 
 # ============================================================================
 # LangChain Configuration
